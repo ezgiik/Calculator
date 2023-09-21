@@ -13,6 +13,7 @@
 		BEAA915D2ABAD80900B50B2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAA915B2ABAD80900B50B2C /* Main.storyboard */; };
 		BEAA915F2ABAD80A00B50B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAA915E2ABAD80A00B50B2C /* Assets.xcassets */; };
 		BEAA91622ABAD80A00B50B2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAA91602ABAD80A00B50B2C /* LaunchScreen.storyboard */; };
+		BECC86C72ABC125E000B0E7F /* Gloock-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECC86C62ABC125E000B0E7F /* Gloock-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BEAA915E2ABAD80A00B50B2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEAA91612ABAD80A00B50B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEAA91632ABAD80A00B50B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BECC86C62ABC125E000B0E7F /* Gloock-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gloock-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,17 @@
 				BEAA915E2ABAD80A00B50B2C /* Assets.xcassets */,
 				BEAA91602ABAD80A00B50B2C /* LaunchScreen.storyboard */,
 				BEAA91632ABAD80A00B50B2C /* Info.plist */,
+				BEAA916A2ABAEF2D00B50B2C /* Fonts */,
 			);
 			path = Homework5;
+			sourceTree = "<group>";
+		};
+		BEAA916A2ABAEF2D00B50B2C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BECC86C62ABC125E000B0E7F /* Gloock-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECC86C72ABC125E000B0E7F /* Gloock-Regular.ttf in Resources */,
 				BEAA91622ABAD80A00B50B2C /* LaunchScreen.storyboard in Resources */,
 				BEAA915F2ABAD80A00B50B2C /* Assets.xcassets in Resources */,
 				BEAA915D2ABAD80900B50B2C /* Main.storyboard in Resources */,
