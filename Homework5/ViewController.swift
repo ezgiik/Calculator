@@ -116,7 +116,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonPlus(_ sender: Any) {
-        addToOperation(value: "+")
+        if operation.last == "+"{
+            addToOperation(value: "")
+        }else {
+            addToOperation(value: "+")
+        }
+        
     }
     
     @IBAction func buttonEquals(_ sender: Any) {
